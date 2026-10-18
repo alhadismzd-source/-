@@ -1,0 +1,12 @@
+name: UhcTools
+version: 1.0.0
+main: uhctools.UhcTools
+api-version: '26.1'
+description: UHC helper - team menu, personal scoreboard with kills, head revive, ore boost
+commands:
+  uhcmenu:
+    description: Open the team menu (/uhcmenu give|reload|spawnstart)
+    usage: /uhcmenu [give|reload|spawnstart]
+  uhcgohead:
+    description: Internal - delivers a tagged dropped head item into the player's inventory (used by clickable chat links)
+    usage: /uhcgohead <tag>
